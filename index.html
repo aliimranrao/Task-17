@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 17</title>
+</head>
+<body style="text-align: center;">
+    <script>
+            arr = [1, 2, 3, 4];
+    for (let i = 0; i < Math.floor(arr.length / 2); i++) {
+        [arr[i], arr[arr.length - 1 - i]] = [arr[arr.length - 1 - i], arr[i]];
+    }
+    document.write(arr);
+    </script>
+</body>
+</html>
